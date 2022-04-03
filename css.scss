@@ -1,0 +1,149 @@
+body{
+    font-weight: 200 !important;
+}
+.test{
+    margin-left: auto;
+}
+.navbar{
+    padding:0 0 4.5rem !important;
+    font-family: 'ubuntu mono', monospace;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.title-image{
+    position: relative !important;
+}
+#title{
+    background-color: rgb(248, 106, 125);
+    color: white;
+    position: relative;
+} 
+.navbrand{
+    font-size: 3rem !important; 
+}
+.mynavitem{
+    padding: 0 18px !important;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fluid-container{
+    padding: 3% 15% 6% 15%;
+}
+
+.image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+} 
+h1{
+    line-height: 1.6!important;
+    font-size: 3rem !important;
+    font-family: 'montserrat', sans-serif;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    i{
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem ;
+    }
+    .icon{
+        color: rgb(252, 97, 97);
+        &:hover{
+            color: rgb(248, 106, 125);
+
+        }
+    }
+
+} 
+.feature-box{
+    text-align: center;
+    padding:5% !important;
+    h3{
+        font-family: 'montserrat', sans-serif;
+    }
+}
+p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600 !important;
+    color: rgb(182, 182, 182);
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: rgb(252, 97, 97);
+    color: #fff;
+    h2{
+        font-family: 'montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    img{
+        margin: 20px;
+        width: 10%;
+        border-radius: 50%;
+    }
+}
+#press{
+    background-color: rgb(252, 97, 97);
+    text-align: center;
+    padding-bottom: 3%;
+    .press-img{
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+    .pricing-column{
+        padding: 3% 2%;
+        
+    }
+}
+#cta{
+    text-align: center;
+}
+@media (max-width:1000px){
+    .image{
+        position: static;
+        transform: none;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: rgb(248, 106, 125);
+    padding: 5% 15%;
+}
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+    p{
+        margin: 0;
+    }
+    .footer-icon{
+        margin: 20px 10px;
+    }
+}
+h3{
+    color: #fff;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.5 !important;
+    font-weight: 900;
+    font-size: 3rem !important;
+    text-align: center;
+}
